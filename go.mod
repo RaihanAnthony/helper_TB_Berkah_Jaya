@@ -3,8 +3,8 @@ module github.com/RaihanMalay21/helper_TB_Berkah_Jaya
 go 1.22.2
 
 require (
-	github.com/RaihanAnthony/config-TB_Berkah_Jaya v0.0.0-20240809060935-eb0541d341d4
-	github.com/RaihanAnthony/models_TB_Berkah_Jaya v0.0.0-20240808145118-aaa66b86ce82
+	github.com/RaihanMalay21/config-TB_Berkah_Jaya v0.0.0-20240810140933-94480d511829
+	github.com/RaihanMalay21/models_TB_Berkah_Jaya v0.0.0-20240810142202-0d5c147efc3b
 	github.com/go-playground/locales v0.14.1
 	github.com/go-playground/universal-translator v0.18.1
 	github.com/go-playground/validator/v10 v10.22.0
