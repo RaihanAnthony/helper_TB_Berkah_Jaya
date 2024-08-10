@@ -6,9 +6,8 @@ import (
 	"gorm.io/gorm"
 	"errors"
 
-
-	"TB_Berkah_Jaya/config"
-	"TB_Berkah_Jaya/models"
+	config "github.com/RaihanAnthony/config-TB_Berkah_Jaya"
+	models "github.com/RaihanAnthony/models_TB_Berkah_Jaya"
 )
 
 func isPhoneUnique(phone string) bool {
