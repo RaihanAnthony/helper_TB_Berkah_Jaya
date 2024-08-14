@@ -3,7 +3,7 @@ module github.com/RaihanMalay21/helper_TB_Berkah_Jaya
 go 1.22.2
 
 require (
-	github.com/RaihanMalay21/config-TB_Berkah_Jaya v0.0.0-20240810140933-94480d511829
+	github.com/RaihanMalay21/config-TB_Berkah_Jaya v0.0.0-20240814065814-87531eb1c6db
 	github.com/RaihanMalay21/models_TB_Berkah_Jaya v0.0.0-20240810142202-0d5c147efc3b
 	github.com/go-playground/locales v0.14.1
 	github.com/go-playground/universal-translator v0.18.1
@@ -12,8 +12,9 @@ require (
 )
 
 require (
+	filippo.io/edwards25519 v1.1.0 // indirect
 	github.com/gabriel-vasile/mimetype v1.4.3 // indirect
-	github.com/go-sql-driver/mysql v1.7.0 // indirect
+	github.com/go-sql-driver/mysql v1.8.1 // indirect
 	github.com/golang-jwt/jwt/v5 v5.2.1 // indirect
 	github.com/gorilla/securecookie v1.1.2 // indirect
 	github.com/gorilla/sessions v1.3.0 // indirect
@@ -23,6 +24,6 @@ require (
 	golang.org/x/crypto v0.19.0 // indirect
 	golang.org/x/net v0.21.0 // indirect
 	golang.org/x/sys v0.17.0 // indirect
-	golang.org/x/text v0.14.0 // indirect
+	golang.org/x/text v0.17.0 // indirect
 	gorm.io/driver/mysql v1.5.7 // indirect
 )
