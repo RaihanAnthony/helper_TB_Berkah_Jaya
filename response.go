@@ -5,11 +5,8 @@ import (
 	"net/http"
 )
 
-func Response(w http.ResponseWriter, payload interface{}, code int) {
+func Response(w http.ResponseWriter, payload interface{}, statusCode int) {
 	response, _ := json.Marshal(payload)
-	w.Header().Set("Access-Control-Allow-Origin", "http://localhost:3000")
-	// w.Header().Set("Access-Control-Allow-Headers", "Content-Type, Authorization")
-	w.Header().Add("Content-Type", "application/json") // Perbaikan typo di sini
-	w.WriteHeader(code)
+	w.WriteHeader(statusCode)
 	w.Write(response)
 }
