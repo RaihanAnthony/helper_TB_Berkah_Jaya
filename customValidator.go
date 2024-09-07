@@ -6,7 +6,7 @@ import (
 	"gorm.io/gorm"
 	"errors"
 
-	config "github.com/RaihanMalay21/config-tb-berkah-jaya-development"
+	config "github.com/RaihanMalay21/config-tb-berkah-jaya"
 	models "github.com/RaihanMalay21/models_TB_Berkah_Jaya"
 )
 
